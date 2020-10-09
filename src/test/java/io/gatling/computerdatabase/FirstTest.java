@@ -21,7 +21,7 @@ public class FirstTest {
     }
 
     @Test
-    public void Buttom() {
+    public void buttom() {
         driver.findElement(By.id("add")).click();
 
         String addUrl = driver.getCurrentUrl();
